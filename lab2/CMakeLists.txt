@@ -4,4 +4,4 @@ project(TemaCPP CXX)
 set(CMAKE_CXX_STANDARD 17)
 include_directories(include)
 
-add_executable(app_demo main.cpp)
+add_executable(app_demo main.cpp Buffer.cpp)
